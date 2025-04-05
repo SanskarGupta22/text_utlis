@@ -39,7 +39,7 @@ function App() {
       <Alert alert={alert} />
       <Routes>
         <Route
-          path="/text_utlis/"
+          path="/"
           element={
             <Textform
               heading="Enter the text below"
@@ -49,7 +49,7 @@ function App() {
           }
         />
 
-        <Route path="/text_utlis/about" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
